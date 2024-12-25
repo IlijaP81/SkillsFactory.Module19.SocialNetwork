@@ -42,11 +42,16 @@
 РАЗДЕЛ Presentation Logic Layer:
 
 в папку Views добавлены: 
+
   класс RegistrationView, обеспечивающий диалог с пользователем и вызов метода регистрации пользователя.
+  
   класс UserIncomingMessageView, реализующий подсчет количества входящих сообщений и их вывод на консоль (опционально).
+  
   класс UserOutcomingMessageView, реализующий подсчет количества исходящих сообщений и их вывод на консоль (опционально).
+  
   класс MessageDeletingView, обеспечивающий вывод входящих/исходящих сообщений на консоль, диалог с пользователем и вызов 
   метода удаления сообщений Delete класса MessageService раздела Business Logic Layer - Services.
+  
   класс UserDeletingView, обеспечивающий вызов метода удаления пользователя Delete класса UserService раздела Business Logic 
   Layer - Services. В свою очередь, метод Delete вызывает метод DeleteById класса UserRepository раздела Data Access Layer – 
   Repositories.
